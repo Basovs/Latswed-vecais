@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: titling-gothic-fb, sans-serif;
+    font-weight: 300;
+}
+h1 {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 44px;
+}
+p {
+    font-size: 14px;
+    color: #707f8e;
+    font-weight: 300;
+}
+// .wrapper {
+//     max-width: 1100px;
+//     margin: 0 auto;
+// }
+nav {
+    background-color: #dfecff;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+.onScroll {
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(140, 157, 184, 0.4);
+}
+.logoNavBar {
+    inline-size: 170px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+nav ul li {
+    margin: 0 10px;
+}
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #707f8e;
+    font-size: 14px;
+    padding: 30px 18px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+nav ul li a:hover {
+    transform: scale(1.1);
+    color: #1e7cfc;
+}
+.btn-contact-us {
+    color: #ffffff;
+    background-image: linear-gradient(#6942c7, #512da8);
+    padding: 10px 30px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    // margin-top: 20px;
+}
+.btn-contact-us:hover {
+    background-image: linear-gradient(#512da8, #512da8);
+}
+header {
+    min-height: 98vh;
+    background-color: #dfecff;
+    display: flex;
+    align-items: center;
+    .wellcomeText {
+        max-inline-size: 800px;
+        margin: 0 0 0 60px;
+        p {
+            padding-top: 20px;
+            line-height: 34px;
+            letter-spacing: 1px;
+            max-inline-size: 500px;
+        }
+    }
+}
+.h1Middle {
+    text-align: center;
+    padding: 50px 0 0 0;
+    color: #2d3339;
+}
+.sammarbetsPartnerContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+.jrMarkteknik {
+    width: 80px;
+    padding: 50px 0;
+}
+.mjContractor {
+    height: 52px;
+    margin-top: 50px;
+}
+.border {
+    border: 16px solid #ffffff;
+}
+.section-left {
+    display: flex;
+}
+.section-right {
+    display: flex;
+}
+.pic-field {
+    height: 600px;
+    background: green;
+    width: 50%;
+    overflow: hidden;
+}
+.text-field {
+    height: 600px;
+    width: 50%;
+}
+.pic {
+    margin-top: -170px;
+}
+.pic2 {
+    transform: scale(1.3);
+}
+.pic3 {
+    transform: scale(0.5);
+    margin-left: -500px;
+    margin-top: -300px;
+}
+.pic4 {
+    transform: scale(0.74);
+    margin-left: -400px;
+    margin-top: -300px;
+}
+.pic5 {
+    transform: scale(0.8);
+    margin-left: -215px;
+    margin-top: -500px;
+}
+.pic6 {
+    transform: scale(0.6);
+    margin-left: -300px;
+    margin-top: -450px;
+}
+.pic7 {
+    transform: scale(0.55);
+    margin-left: -270px;
+    margin-top: -370px;
+}
+footer {
+    height: 500px;
+    background: #044d48;
+}

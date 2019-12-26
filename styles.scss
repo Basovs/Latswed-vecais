@@ -8,14 +8,21 @@ body {
     font-weight: 300;
 }
 h1 {
-    font-size: 28px;
+    font-size: 1.9rem;
     font-weight: 400;
     line-height: 44px;
 }
+h2 {
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+}
 p {
-    font-size: 14px;
-    color: #707f8e;
-    font-weight: 300;
+    font-weight: 200;
+    letter-spacing: 1px;
 }
 // .wrapper {
 //     max-width: 1100px;
@@ -69,7 +76,6 @@ nav ul li a:hover {
     border: none;
     cursor: pointer;
     font-size: 16px;
-    // margin-top: 20px;
 }
 .btn-contact-us:hover {
     background-image: linear-gradient(#512da8, #512da8);
@@ -86,7 +92,6 @@ header {
             padding-top: 20px;
             line-height: 34px;
             letter-spacing: 1px;
-            max-inline-size: 500px;
         }
     }
 }
@@ -110,6 +115,7 @@ header {
 }
 .section2 {
     padding: 60px 0 0 0;
+    background-color: #fafafa;
     &__title {
         text-align: center;
         margin: 0 0 50px 0;
@@ -119,14 +125,17 @@ header {
         display: flex;
         .img-wrapper {
             min-inline-size: 50%;
-            block-size: 50vw;
+            block-size: 40vw;
         }
         .article-div {
             display: flex;
             justify-content: center;
             align-self: center;
-            article {
+            &__article {
                 inline-size: 80%;
+                &__title {
+                    margin: 0 0 10px 0;
+                }
             }
         }
         &:nth-child(even) {
@@ -137,7 +146,7 @@ header {
 
 footer {
     height: 500px;
-    background: #044d48;
+    background: #100e17;
 }
 
 .img-wrapper {

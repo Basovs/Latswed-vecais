@@ -11,7 +11,7 @@ body {
 }
 
 h1 {
-  font-size: 2.2rem;
+  font-size: 1.7rem;
   font-weight: 400;
   line-height: 44px;
 }
@@ -133,6 +133,7 @@ header .wellcomeText p {
 
 .section1 {
   padding: 60px 16px;
+  background-color: #fafafa;
 }
 
 .section1__title {
@@ -160,7 +161,6 @@ header .wellcomeText p {
 
 .section2 {
   padding: 60px 16px 0 16px;
-  background-color: #fafafa;
 }
 
 .section2__title {
@@ -255,6 +255,10 @@ header .wellcomeText p {
 
 .section3 form label textarea:focus {
   border: 2px solid #20ad3c;
+}
+
+.section3 form .btn-contact-us {
+  margin: 0 16px;
 }
 
 footer {
@@ -391,7 +395,6 @@ footer {
   }
   .section2 {
     padding: 60px 0 0 0;
-    background-color: #fafafa;
   }
   .section2__title {
     text-align: center;
@@ -483,6 +486,9 @@ footer {
   }
   .section3 form label textarea:focus {
     border: 2px solid #20ad3c;
+  }
+  .section3 form .btn-contact-us {
+    margin: unset;
   }
   footer {
     height: 500px;

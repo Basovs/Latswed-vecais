@@ -9,3 +9,11 @@ function changeOnScroll() {
         document.querySelector("nav").className = ""
     }
 }
+
+window.addEventListener("scroll", function() {
+    const target = document.querySelector(".parallax")
+    let scrolled = window.pageYOffset
+    let positiveRate = scrolled * 0.4
+
+    target.style.transform = `translate3d(0px, ${positiveRate}px, 0px)`
+})

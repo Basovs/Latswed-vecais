@@ -81,9 +81,9 @@ nav ul li a:hover {
 header {
     min-height: 98vh;
     background-color: #dfecff;
+    padding: 0 16px;
     display: flex;
     align-items: center;
-    padding: 0 16px;
     .wellcomeText {
         p {
             padding-top: 20px;
@@ -214,18 +214,10 @@ footer {
         font-size: 2rem;
     }
     header {
-        min-height: 98vh;
-        background-color: #dfecff;
-        display: flex;
-        align-items: center;
+        padding: unset;
         .wellcomeText {
             max-inline-size: 850px;
             margin: 0 0 0 60px;
-            p {
-                padding-top: 20px;
-                line-height: 34px;
-                letter-spacing: 1px;
-            }
         }
     }
     .section1 {
@@ -340,24 +332,8 @@ footer {
         font-size: 1.2rem;
     }
     nav {
-        background-color: #dfecff;
-        position: fixed;
-        width: 100%;
-        z-index: 1;
-        transition: all 0.2s ease-in-out;
         flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 60px;
         margin: unset;
-    }
-    .onScroll {
-        background-color: #ffffff;
-        border-bottom: 1px solid rgba(140, 157, 184, 0.4);
-    }
-    .logo {
-        inline-size: 170px;
-        line-height: 1px;
     }
     nav ul {
         display: flex;

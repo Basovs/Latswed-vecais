@@ -278,79 +278,12 @@ footer {
   block-size: 100%;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 720px) {
+  h1 {
+    font-size: 2.2rem;
+  }
   h2 {
     font-size: 2rem;
-  }
-  nav {
-    background-color: #dfecff;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 0 60px;
-    margin: unset;
-  }
-  .onScroll {
-    background-color: #ffffff;
-    border-bottom: 1px solid rgba(140, 157, 184, 0.4);
-  }
-  .logo {
-    inline-size: 170px;
-    line-height: 1px;
-  }
-  nav ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: space-evenly;
-        -ms-flex-pack: space-evenly;
-            justify-content: space-evenly;
-    list-style: none;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  nav ul li {
-    margin: 0 10px;
-  }
-  nav ul li a {
-    display: block;
-    text-decoration: none;
-    color: #707f8e;
-    padding: 30px 18px;
-    cursor: pointer;
-    -webkit-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-  }
-  nav ul li a:hover {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-    color: #1e7cfc;
-  }
-  .btn-contact-us {
-    color: #ffffff;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#6942c7), to(#512da8));
-    background-image: linear-gradient(#6942c7, #512da8);
-    padding: 1rem 2rem;
-    border-radius: 4px;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  .btn-contact-us:hover {
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#512da8), to(#512da8));
-    background-image: linear-gradient(#512da8, #512da8);
   }
   header {
     min-height: 98vh;
@@ -493,6 +426,82 @@ footer {
   footer {
     height: 500px;
     background: #100e17;
+  }
+}
+
+@media (min-width: 1126px) {
+  p {
+    font-size: 1.2rem;
+  }
+  nav {
+    background-color: #dfecff;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 60px;
+    margin: unset;
+  }
+  .onScroll {
+    background-color: #ffffff;
+    border-bottom: 1px solid rgba(140, 157, 184, 0.4);
+  }
+  .logo {
+    inline-size: 170px;
+    line-height: 1px;
+  }
+  nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    list-style: none;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  nav ul li {
+    margin: 0 10px;
+  }
+  nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #707f8e;
+    padding: 30px 18px;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  nav ul li a:hover {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    color: #1e7cfc;
+  }
+  .btn-contact-us {
+    color: #ffffff;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#6942c7), to(#512da8));
+    background-image: linear-gradient(#6942c7, #512da8);
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .btn-contact-us:hover {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#512da8), to(#512da8));
+    background-image: linear-gradient(#512da8, #512da8);
   }
 }
 /*# sourceMappingURL=styles.css.map */
